@@ -27,8 +27,8 @@ const handleVideo=()=> {
     controls={false}
     muted
     /> 
-    <div className="app__video-overlay flex-center">
-       <div className="app__video-overlay_circle flex-center"
+    <div className="app__video-overlay flex__center">
+       <div className="app__video-overlay_circle flex__center"
        onClick={handleVideo}
        >
        {playVideo?

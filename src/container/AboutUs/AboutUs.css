@@ -1,8 +1,5 @@
 .app__aboutus {
     position: relative;
-    display: flex;
-    justify-content: center;
-    
 }
 
 .app__aboutus-overlay {
@@ -20,6 +17,9 @@
 .app__aboutus-content {
     width: 100%;
     z-index: 2;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .app__aboutus-content_about {
@@ -28,11 +28,13 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    text-align: right;
+    text-align: left;
 }
 
 .app__aboutus-content-knife {
     margin: 2rem 4rem;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -46,7 +48,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    text-align: left;
+    text-align: right;
 }
 
 .app__aboutus-content_history p,
